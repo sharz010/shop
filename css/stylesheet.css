@@ -1,0 +1,93 @@
+  html {
+    overflow-y:scroll;
+
+  }
+   h1 {
+	          list-style:none;
+        padding: 1rem;
+        width:100%;
+        background-color:lavender;
+        margin:0;
+        text-align: center;
+        opacity:0.7;
+		    font-family: Constantia;
+   }
+      h4 {
+	          list-style:none;
+        padding: 1rem;
+        width:100%;
+        background-color:lavender;
+        margin:0;
+        text-align: center;
+        opacity:0.7;
+		    font-family: Constantia;
+   }
+      h3 {
+        list-style:none;
+        padding: 1rem;
+        width:105%;
+        background-color:lavender;
+        margin:0;
+        text-align: center;
+        padding:10px;
+        opacity:0.7;
+        font-family: Constantia;
+      }
+   body {
+        margin: 0;
+        overflow: hidden;
+        padding:32px;
+        background-repeat: no repeat;
+    }
+    nav ul {
+        list-style:none;
+        padding: 1rem;
+        width:100%;
+        background-color:lavender;
+        text-align: center;
+        opacity:0.7;
+        font-family: Constantia;
+    }
+    nav li{
+        display: inline-block;
+        width: 15%;
+    }
+    nav a {
+        text-decoration:none;
+        padding:18px;
+        background-color:lavender;
+        transition:0.5s;
+        font-size:25px;
+        color:white;
+        font-weight:bold;
+    }
+
+    nav a:hover{
+        background-color: #D3D3D3;
+    color:black;
+  }
+div.background {
+        background-image:url("background.jpg");
+}
+div.beschrijving {
+        position:absolute;
+        width:30%;
+        margin-top: 205px;
+        margin-right:700px;
+        padding: 1rem;
+        background-color:lavender;
+        opacity:0.7;
+        font-family: Constantia;
+}
+   footer {
+        position: fixed;
+		background-color: "lavender";
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        text-align: center;
+      }
+ #video, #video video {
+        position: fixed;
+    }

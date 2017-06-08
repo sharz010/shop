@@ -1,0 +1,319 @@
+html {
+  overflow-y:scroll;
+}
+
+h1 {
+         list-style:none;
+     padding: 1rem;
+     width:100%;
+     background-color:lavender;
+     margin:0;
+     text-align: center;
+     opacity:0.7;
+     font-family: Constantia;
+}
+h3 {
+    width: 20%;
+    font-family:constantie;
+    textalign: center;
+    background-color: lavender;
+
+}
+.button {
+  background-color: #d3d3d3;
+  border: ;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+body {
+     margin: 0;
+     overflow: hidden;
+     padding:32px;
+ }
+
+ nav a:hover{
+     background-color: #D3D3D3;
+     color:black;
+ }
+
+ nav ul {
+     list-style:none;
+     padding: 1rem;
+     width:100%;
+     background-color:lavender;
+     text-align: center;
+     opacity:0.7;
+     font-family: Constantia;
+ }
+
+ nav li {
+     display: inline-block;
+     width: 15%;
+ }
+
+ nav a {
+     text-decoration:none;
+     padding:18px;
+     background-color:lavender;
+     transition:0.5s;
+     font-size:25px;
+     color:white;
+     font-weight:bold;
+ }
+
+ div {
+   float:left;
+   padding:25 auto 25 auto;
+   height:700;
+   width:200;
+   text-align:center;
+ }
+
+ div.broek1 {
+   width:300px;
+   height:400px;
+   margin-left:110px;
+   margin-right:30px;
+   margin-top:50px;
+ }
+
+div.broek2 {
+  width:300px;
+  height:400px;
+  margin-left:110px;
+  margin-right:110px;
+  margin-top:50px;
+}
+
+div.broek3 {
+  width:300px;
+  height:400px;
+  margin-right:110px;
+  margin-top:50px;
+}
+
+div.broek4 {
+  width:300px;
+  height:400px;
+  margin-left:110px;
+  margin-right:30px;
+}
+
+div.broek5 {
+ width:300px;
+ height:400px;
+ margin-left:110px;
+ margin-right:110px;
+}
+
+div.broek6 {
+ width:300px;
+ height:400px;
+ margin-right:110px;
+}
+
+div.vest1 {
+  width:200px;
+  height:300px;
+  margin-left:130px;
+}
+
+div.vest2 {
+  width:200px;
+  height:300px;
+  margin-left:200px;
+}
+
+div.vest3 {
+  width:200px;
+  height:300px;
+  margin-left: 220px;
+}
+
+div.vest4 {
+  width:200px;
+  height:300px;
+  margin-left:110px;
+  margin-top:50px;
+  margin-bottom:30px;
+}
+
+div.vest5 {
+  width:200px;
+  height:300px;
+  margin-left:220px;
+  margin-top: 50px;
+  margin-bottom:30px;
+}
+
+div.vest6 {
+  width:200px;
+  height:300px;
+  margin-left: 233px;
+  margin-top: 50px;
+  margin-bottom:30px;
+}
+
+/*
+======GEEN FOTOS MEER NA DEZE BORDER, HIERNA GAAT HET OM DE TEXT ERNAAST=====
+*/
+
+
+div.broek1text {
+  position:absolute;
+  width:10%;
+  height:10%;
+  margin-left:350px;
+  margin-top:120px;
+  padding: 1rem;
+  background-color:lavender;
+  opacity:0.7;
+  font-family: Constantia;
+}
+
+div.broek2text {
+  position:absolute;
+  width:10%;
+  height:10%;
+  margin-left:815px;
+  margin-top:120px;
+  padding: 1rem;
+  background-color:lavender;
+  opacity:0.7;
+  font-family: Constantia;
+}
+
+div.broek3text {
+  position:absolute;
+  width:10%;
+  height:10%;
+  margin-left:1215px;
+  margin-top:120px;
+  padding: 1rem;
+  background-color:lavender;
+  opacity:0.7;
+  font-family: Constantia;
+}
+
+div.broek4text {
+  position:absolute;
+  width:10%;
+  height:10%;
+  margin-left:350px;
+  margin-top:540px;
+  padding: 1rem;
+  background-color:lavender;
+  opacity:0.7;
+  font-family: Constantia;
+}
+
+div.broek5text {
+  position:absolute;
+  width:10%;
+  height:10%;
+  margin-top:540px;
+  margin-left:815px;
+  padding: 1rem;
+  background-color:lavender;
+  opacity:0.7;
+  font-family: Constantia;
+}
+
+div.broek6text {
+  position:absolute;
+  width:10%;
+  height:10%;
+  margin-top:540px;
+  margin-left:1215px;
+  padding: 1rem;
+  background-color:lavender;
+  opacity:0.7;
+  font-family: Constantia;
+}
+
+div.vest1text {
+  position:absolute;
+  width:10%;
+  height:10%;
+  margin-left:350px;
+  margin-top:910px;
+  padding: 1rem;
+  background-color:lavender;
+  opacity:0.7;
+  font-family: Constantia;
+}
+
+div.vest2text{
+  position:absolute;
+  width:10%;
+  height:10%;
+  margin-top:910px;
+  margin-left:775px;
+  padding: 1rem;
+  background-color:lavender;
+  opacity:0.7;
+  font-family: Constantia;
+}
+
+div.vest3text {
+  position:absolute;
+  width:10%;
+  height:10%;
+  margin-top:910px;
+  margin-left:1215px;
+  padding: 1rem;
+  background-color:lavender;
+  opacity:0.7;
+  font-family: Constantia;
+}
+
+div.vest4text {
+  position:absolute;
+  width:10%;
+  height:10%;
+  margin-left:350px;
+  margin-top:1250px;
+  padding: 1rem;
+  background-color:lavender;
+  opacity:0.7;
+  font-family: Constantia;
+}
+
+div.vest5text {
+  position:absolute;
+  width:10%;
+  height:10%;
+  margin-top:1250px;
+  margin-left:775px;
+  padding: 1rem;
+  background-color:lavender;
+  opacity:0.7;
+  font-family: Constantia;
+}
+
+div.vest6text {
+  position:absolute;
+  width:10%;
+  height:10%;
+  margin-top:1250px;
+  margin-left:1215px;
+  padding: 1rem;
+  background-color:lavender;
+  opacity:0.7;
+  font-family: Constantia;
+}
+
+footer {
+position:fixed ;
+right: 0;
+bottom: 0;
+left: 0;
+padding: 1rem;
+background-color: white;
+text-align: center;
+}
